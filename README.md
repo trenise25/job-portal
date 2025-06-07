@@ -1,69 +1,72 @@
-# Job Portal
 
-A modern job portal application built with React, Vite, and Tailwind CSS.
+# Job Portal Application
+
+## Overview
+This is a modern job portal application designed to connect job seekers with employers. It offers a sleek and intuitive user interface to browse jobs, manage applications, and explore career resources.
 
 ## Features
-
-- Job search and filtering
-- Career roadmaps
-- AI Resume Analyzer
-- Job insights and analytics
-- Course enrollment
-- Premium features
-- User authentication
-
-## Deployment Instructions
-
-### Deploying to Vercel
-
-1. Create a GitHub repository and push your code:
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin <your-github-repo-url>
-git push -u origin main
-```
-
-2. Go to [Vercel](https://vercel.com) and sign up/login with your GitHub account
-
-3. Click "New Project" and import your repository
-
-4. Configure the project:
-   - Framework Preset: Vite
-   - Root Directory: frontend
-   - Build Command: npm run build
-   - Output Directory: dist
-
-5. Click "Deploy"
-
-Your application will be deployed and you'll get a URL like `https://your-project-name.vercel.app`
-
-### Environment Variables
-
-No environment variables are required for the current setup.
-
-## Local Development
-
-1. Install dependencies:
-```bash
-cd frontend
-npm install
-```
-
-2. Start the development server:
-```bash
-npm run dev
-```
-
-3. Open [http://localhost:5173](http://localhost:5173) in your browser
+- **Job Listings**: Browse and search for jobs based on various criteria.
+- **User Authentication**: Secure login and registration for job seekers and employers.
+- **Profile Management**: Create and manage user profiles.
+- **Application Tracking**: Keep track of job applications.
+- **Course Catalog**: Discover and enroll in relevant courses to enhance skills.
+- **Premium Features**: Access exclusive content and advanced functionalities.
+- **Responsive Design**: Optimized for various screen sizes and devices.
+- **Modern UI/UX**: Features a sophisticated and engaging user interface.
 
 ## Technologies Used
+- **Frontend**: React.js, Vite, Tailwind CSS
+- **UI/UX**: Glassmorphism, Neumorphism, Custom Illustrations, Dynamic Backgrounds, Smooth Animations
+- **Typography**: Inter / Poppins (customizable)
 
-- React
-- Vite
-- Tailwind CSS
-- React Router
-- React Hot Toast
-- Lucide Icons
-- Mermaid.js (for diagrams) 
+## Design System
+The application boasts a cutting-edge design system with:
+- **Color Palette**: Midnight Blue, Soft Cyan, Warm Gold, Neutral Gray, Deep Purple (customizable via CSS variables).
+- **Glassmorphism**: Elegant translucent elements.
+- **Neumorphism**: Soft, extruded UI elements providing a modern feel.
+- **Dynamic Backgrounds**: Engaging visual backdrops to enhance user experience.
+- **Enhanced Typography**: Readability and aesthetic appeal with chosen font families.
+- **Smooth Animations**: Seamless transitions and interactions for a fluid user experience.
+
+## Setup and Installation
+To get this project up and running on your local machine, follow these steps:
+
+### Prerequisites
+Make sure you have the following installed:
+- Node.js (v14 or higher)
+- npm or Yarn
+
+### Installation Steps
+1. **Clone the repository**:
+   ```bash
+   git clone <repository_url>
+   cd job-portal
+   ```
+
+2. **Navigate to the frontend directory**:
+   ```bash
+   cd frontend
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+4. **Start the development server**:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   The application will be accessible at `http://localhost:5173` (or another port if 5173 is in use).
+
+## Usage
+Once the application is running, you can:
+- Navigate through different pages using the Navbar.
+- Explore job listings, courses, and premium content.
+- Register for a new account or log in if you already have one.
+- Update your profile and manage your applications.
